@@ -653,8 +653,8 @@ public class DiffNode
 			Object parent = parentNode.canonicalGet(target);
 			if (parent == null)
 			{
-				parent = parentNode.newInstance();
-				parentNode.canonicalSet(target, parent);
+// 				parent = parentNode.newInstance();
+// 				parentNode.canonicalSet(target, parent);
 			}
 			target = parent;
 		}
